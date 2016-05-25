@@ -3,10 +3,11 @@
 //  TestProject
 //
 //  Created by Yosemite on 5/25/16.
-//  Copyright © 2016 Christian.Dimitrov. All rights reserved.
+//  Copyright © 2016 Martin.Dimitrov. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "AppData.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [AppData appData].username = @"iosdev/123e4567e89b12d3a456";
+    [AppData appData].password = @"";
+    
     return YES;
 }
 
