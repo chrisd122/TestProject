@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DashboardVC.h
 //  TestProject
 //
 //  Created by Yosemite on 5/25/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface DashboardVC : UITableViewController
 
 @end
-

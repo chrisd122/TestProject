@@ -9,10 +9,18 @@
 /* Begin PBXBuildFile section */
 		A770BA7C1CF5F1640055F520 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A770BA7B1CF5F1640055F520 /* main.m */; };
 		A770BA7F1CF5F1640055F520 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A770BA7E1CF5F1640055F520 /* AppDelegate.m */; };
-		A770BA821CF5F1640055F520 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A770BA811CF5F1640055F520 /* ViewController.m */; };
 		A770BA851CF5F1640055F520 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A770BA831CF5F1640055F520 /* Main.storyboard */; };
 		A770BA871CF5F1640055F520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A770BA861CF5F1640055F520 /* Assets.xcassets */; };
 		A770BA8A1CF5F1640055F520 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A770BA881CF5F1640055F520 /* LaunchScreen.storyboard */; };
+		A770BA961CF5F81F0055F520 /* AppData.m in Sources */ = {isa = PBXBuildFile; fileRef = A770BA951CF5F81F0055F520 /* AppData.m */; };
+		A770BA991CF5FA7A0055F520 /* TestAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = A770BA981CF5FA7A0055F520 /* TestAPI.m */; };
+		A770BA9C1CF5FFDC0055F520 /* KPIData.m in Sources */ = {isa = PBXBuildFile; fileRef = A770BA9B1CF5FFDC0055F520 /* KPIData.m */; };
+		A770BA9F1CF6022B0055F520 /* AmountInAggregationCurrency.m in Sources */ = {isa = PBXBuildFile; fileRef = A770BA9E1CF6022B0055F520 /* AmountInAggregationCurrency.m */; };
+		A770BAA21CF6024C0055F520 /* TimePeriod.m in Sources */ = {isa = PBXBuildFile; fileRef = A770BAA11CF6024C0055F520 /* TimePeriod.m */; };
+		A770BAA51CF604A00055F520 /* KPIValue.m in Sources */ = {isa = PBXBuildFile; fileRef = A770BAA41CF604A00055F520 /* KPIValue.m */; };
+		A770BAA81CF605A10055F520 /* SurroundingPeriodData.m in Sources */ = {isa = PBXBuildFile; fileRef = A770BAA71CF605A10055F520 /* SurroundingPeriodData.m */; };
+		A770BAAB1CF60C730055F520 /* DashboardVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A770BAAA1CF60C730055F520 /* DashboardVC.m */; };
+		A770BAB01CF610330055F520 /* DashboardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A770BAAF1CF610330055F520 /* DashboardCell.m */; };
 		EBEA4443C43F07B111A0EE9C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4491D7167465790D429716B /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -23,12 +31,28 @@
 		A770BA7B1CF5F1640055F520 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A770BA7D1CF5F1640055F520 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A770BA7E1CF5F1640055F520 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A770BA801CF5F1640055F520 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A770BA811CF5F1640055F520 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A770BA841CF5F1640055F520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A770BA861CF5F1640055F520 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A770BA891CF5F1640055F520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A770BA8B1CF5F1640055F520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A770BA941CF5F81F0055F520 /* AppData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppData.h; sourceTree = "<group>"; };
+		A770BA951CF5F81F0055F520 /* AppData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppData.m; sourceTree = "<group>"; };
+		A770BA971CF5FA7A0055F520 /* TestAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestAPI.h; sourceTree = "<group>"; };
+		A770BA981CF5FA7A0055F520 /* TestAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestAPI.m; sourceTree = "<group>"; };
+		A770BA9A1CF5FFDC0055F520 /* KPIData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPIData.h; sourceTree = "<group>"; };
+		A770BA9B1CF5FFDC0055F520 /* KPIData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPIData.m; sourceTree = "<group>"; };
+		A770BA9D1CF6022B0055F520 /* AmountInAggregationCurrency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmountInAggregationCurrency.h; sourceTree = "<group>"; };
+		A770BA9E1CF6022B0055F520 /* AmountInAggregationCurrency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmountInAggregationCurrency.m; sourceTree = "<group>"; };
+		A770BAA01CF6024C0055F520 /* TimePeriod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimePeriod.h; sourceTree = "<group>"; };
+		A770BAA11CF6024C0055F520 /* TimePeriod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimePeriod.m; sourceTree = "<group>"; };
+		A770BAA31CF604A00055F520 /* KPIValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPIValue.h; sourceTree = "<group>"; };
+		A770BAA41CF604A00055F520 /* KPIValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPIValue.m; sourceTree = "<group>"; };
+		A770BAA61CF605A10055F520 /* SurroundingPeriodData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SurroundingPeriodData.h; sourceTree = "<group>"; };
+		A770BAA71CF605A10055F520 /* SurroundingPeriodData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SurroundingPeriodData.m; sourceTree = "<group>"; };
+		A770BAA91CF60C730055F520 /* DashboardVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashboardVC.h; sourceTree = "<group>"; };
+		A770BAAA1CF60C730055F520 /* DashboardVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardVC.m; sourceTree = "<group>"; };
+		A770BAAE1CF610330055F520 /* DashboardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashboardCell.h; sourceTree = "<group>"; };
+		A770BAAF1CF610330055F520 /* DashboardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardCell.m; sourceTree = "<group>"; };
 		C4491D7167465790D429716B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -74,10 +98,11 @@
 		A770BA791CF5F1640055F520 /* TestProject */ = {
 			isa = PBXGroup;
 			children = (
+				A770BA931CF5F8020055F520 /* DataModel */,
+				A770BA921CF5F7D50055F520 /* API */,
+				A770BA911CF5F7C50055F520 /* ViewControllers */,
 				A770BA7D1CF5F1640055F520 /* AppDelegate.h */,
 				A770BA7E1CF5F1640055F520 /* AppDelegate.m */,
-				A770BA801CF5F1640055F520 /* ViewController.h */,
-				A770BA811CF5F1640055F520 /* ViewController.m */,
 				A770BA831CF5F1640055F520 /* Main.storyboard */,
 				A770BA861CF5F1640055F520 /* Assets.xcassets */,
 				A770BA881CF5F1640055F520 /* LaunchScreen.storyboard */,
@@ -93,6 +118,61 @@
 				A770BA7B1CF5F1640055F520 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A770BA911CF5F7C50055F520 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A770BAAD1CF6100F0055F520 /* VCs */,
+				A770BAAC1CF610060055F520 /* CustomCells */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A770BA921CF5F7D50055F520 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				A770BA971CF5FA7A0055F520 /* TestAPI.h */,
+				A770BA981CF5FA7A0055F520 /* TestAPI.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		A770BA931CF5F8020055F520 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				A770BA941CF5F81F0055F520 /* AppData.h */,
+				A770BA951CF5F81F0055F520 /* AppData.m */,
+				A770BA9A1CF5FFDC0055F520 /* KPIData.h */,
+				A770BA9B1CF5FFDC0055F520 /* KPIData.m */,
+				A770BA9D1CF6022B0055F520 /* AmountInAggregationCurrency.h */,
+				A770BA9E1CF6022B0055F520 /* AmountInAggregationCurrency.m */,
+				A770BAA01CF6024C0055F520 /* TimePeriod.h */,
+				A770BAA11CF6024C0055F520 /* TimePeriod.m */,
+				A770BAA31CF604A00055F520 /* KPIValue.h */,
+				A770BAA41CF604A00055F520 /* KPIValue.m */,
+				A770BAA61CF605A10055F520 /* SurroundingPeriodData.h */,
+				A770BAA71CF605A10055F520 /* SurroundingPeriodData.m */,
+			);
+			name = DataModel;
+			sourceTree = "<group>";
+		};
+		A770BAAC1CF610060055F520 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				A770BAAE1CF610330055F520 /* DashboardCell.h */,
+				A770BAAF1CF610330055F520 /* DashboardCell.m */,
+			);
+			name = CustomCells;
+			sourceTree = "<group>";
+		};
+		A770BAAD1CF6100F0055F520 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				A770BAA91CF60C730055F520 /* DashboardVC.h */,
+				A770BAAA1CF60C730055F520 /* DashboardVC.m */,
+			);
+			name = VCs;
 			sourceTree = "<group>";
 		};
 		A91D6CFBB0DF58F0E6F6B818 /* Frameworks */ = {
@@ -224,9 +304,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A770BA821CF5F1640055F520 /* ViewController.m in Sources */,
+				A770BA9C1CF5FFDC0055F520 /* KPIData.m in Sources */,
+				A770BAA21CF6024C0055F520 /* TimePeriod.m in Sources */,
+				A770BAB01CF610330055F520 /* DashboardCell.m in Sources */,
+				A770BA991CF5FA7A0055F520 /* TestAPI.m in Sources */,
+				A770BAA51CF604A00055F520 /* KPIValue.m in Sources */,
+				A770BAA81CF605A10055F520 /* SurroundingPeriodData.m in Sources */,
 				A770BA7F1CF5F1640055F520 /* AppDelegate.m in Sources */,
+				A770BA9F1CF6022B0055F520 /* AmountInAggregationCurrency.m in Sources */,
 				A770BA7C1CF5F1640055F520 /* main.m in Sources */,
+				A770BA961CF5F81F0055F520 /* AppData.m in Sources */,
+				A770BAAB1CF60C730055F520 /* DashboardVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +426,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.christianMobile.TestProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -350,6 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.christianMobile.TestProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
